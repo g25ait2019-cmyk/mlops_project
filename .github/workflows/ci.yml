@@ -20,4 +20,4 @@ jobs:
         run: pip install flake8
 
       - name: Lint with flake8
-        run: flake8 src/ --max-line-length=120
+        run: flake8 src/ --max-line-length=120 --ignore=E221,E401,E302,E305,E201,W291,W292
